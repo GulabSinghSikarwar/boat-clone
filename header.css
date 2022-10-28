@@ -1,0 +1,35 @@
+/*  header container  */
+
+.header_container{
+    display: flex;
+}
+
+
+/* boat logo   */
+.boat_official_icon{
+    width: 12rem;
+}
+
+
+
+/*  categories section  */
+
+.categories_heading{
+    display: flex;
+}
+
+.categories_heading h4 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    /* letter-spacing: 0.05rem; */
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+.categories_heading  img {
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+    
+}
