@@ -1,35 +1,136 @@
 /*  header container  */
 
-.header_container{
+.header_container {
     display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* padding-left: 5rem ; */
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0 .5rem;
 }
 
 
 /* boat logo   */
-.boat_official_icon{
-    width: 12rem;
+.boat_official_icon {
+    width: 10rem;
+    object-fit: cover;
 }
 
 
+.header_image_container {
+    padding-left: 1rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+
+}
 
 /*  categories section  */
 
-.categories_heading{
+.header_categories_container {
+    /* position: relative;
+    right: 15.5rem; */
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;
+    text-align: center;
+
+}
+
+.header_categories_heading_container {
     display: flex;
+    /* position: relative; */
+}
+
+.categories_heading {
+    display: flex;
+    padding: 0px 10px;
+    cursor: pointer;
+
 }
 
 .categories_heading h4 {
     font-family: Montserrat;
     text-transform: uppercase;
     /* letter-spacing: 0.05rem; */
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 600;
-    width: 100%;
+    /* width: 100%; */
 }
-.categories_heading  img {
-    
+
+.categories_heading img {
+
     width: 1.5rem;
-    height: 1.5rem;
+    /* height: 1.5rem; */
     object-fit: contain;
-    
+
+}
+
+
+/*  Search and  customer support  */
+.serachCustomerBlock {
+    display: flex;
+    align-items: center;
+
+}
+
+.search_box_container {
+    display: flex;
+    align-items: center;
+
+}
+
+/*  combiner of  search and support  */
+.combine_box {
+    display: flex;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 15rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+
+
+}
+
+/* serch  icon container  */
+
+.search_icon img {
+    width: 0.8rem;
+
+
+}
+
+/* searech input container  */
+.search_input {
+    padding-left: 0.5rem;
+    font-family: Montserrat;
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
+
+.search_input input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: Montserrat;
+    text-transform: capitalize;
+    padding-left: 1.5rem;
+    font-weight: 500;
+}
+
+/* customer support  row  */
+.customerSupport {
+    display: flex;
+    padding-left: 0.8rem;
+    align-items: center;
+
+}
+
+.customer_support_individual {
+    width:15px;
+    padding: 0.5rem 0.2rem;
 }
