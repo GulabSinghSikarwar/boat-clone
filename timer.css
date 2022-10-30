@@ -30,6 +30,7 @@
     padding-left: 5px ;
     padding-right: 15px ;
     margin-left: 15px;
+    /* padding-bottom: 0.5px; */
 
    
     background-color: #fbc50a;
@@ -37,7 +38,7 @@
 
 .timer{
 padding-top: 0.2rem;
-padding-bottom: 0.2rem;
+padding-bottom: 0.5rem;
 padding-left: 5px;
 
 
