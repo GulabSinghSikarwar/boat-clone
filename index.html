@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="./slider.css">
     <link rel="stylesheet" href="./shopByCategories.css">
+    <link rel="stylesheet" href="./timer.css">
 
 </head>
 
@@ -128,8 +129,8 @@
 
             <div class="product_categories_container">
                 <div class="productsContainer">
-                  
-                  
+
+
                     <div class="product_category">
                         <div class="product_image_container">
                             <div class="product_image">
@@ -138,8 +139,8 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> AIRDOPES  </h4>
-                                <h4> TRUE WIRELESS EARPHONES  </h4>
+                                <h4> AIRDOPES </h4>
+                                <h4> TRUE WIRELESS EARPHONES </h4>
                             </div>
                         </div>
 
@@ -153,7 +154,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> ROCKERZ  </h4>
+                                <h4> ROCKERZ </h4>
                                 <h4> NECKBANDS </h4>
                             </div>
                         </div>
@@ -185,7 +186,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                  <h4> BASEHEADS</h4>
+                                <h4> BASEHEADS</h4>
                                 <h4> WIRED EARPHONES</h4>
                             </div>
                         </div>
@@ -245,7 +246,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> AAVANTE  </h4>
+                                <h4> AAVANTE </h4>
                                 <h4> HOME AUDIO </h4>
                             </div>
                         </div>
@@ -277,7 +278,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> MOBILE  </h4>
+                                <h4> MOBILE </h4>
                                 <h4> ACCESSORIES </h4>
                             </div>
                         </div>
@@ -323,7 +324,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> IMMORTAL  </h4>
+                                <h4> IMMORTAL </h4>
                                 <h4> GAMING HEADPHONES </h4>
                             </div>
                         </div>
@@ -339,7 +340,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> MISFIT  </h4>
+                                <h4> MISFIT </h4>
                                 <h4> TRIMMERS </h4>
                             </div>
                         </div>
@@ -355,7 +356,7 @@
                         </div>
                         <div class="product_category_detail">
                             <div class="product_category_heading">
-                                <h4> CAR  </h4>
+                                <h4> CAR </h4>
                                 <h4> ACCESSORIES </h4>
                             </div>
                         </div>
@@ -376,7 +377,7 @@
                         </div>
 
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -386,11 +387,34 @@
 
     </section>
 
-
+    <!--  daily deals  timear section -->
+    <section>
+        <div class="deal_of_day_heading">
+            <h4>Daily Deals</h4>
+        </div>
+        <div class="daily_deals_timer_container">
+            <div class="container">
+                <p id="timer" class="timer">
+                    <span class="powerIcon">
+                        <img src="./assets/cardIcons/flash.png" alt="">
+                    </span>
+                    <span class="timer_container_time">
+                        <span class="powerIcon">Ending In:</span>
+                        <span id="timer-days"></span>
+                        <span id="timer-hours"></span>
+                        <span id="timer-mins"></span>
+                        <span id="timer-secs"></span>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </section>
 
 
 
 
 </body>
+<script src="timer.js"></script>
+
 
 </html>
